@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-21T18:14:31.409Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="3efY-C9smjlSM7YjwOJz" version="14.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-21T22:33:57.924Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="pNqQI2KvKHa1Pk_WBCLi" version="14.2.6" type="github">
   <diagram name="Page-1" id="8ce9d11a-91a2-4d17-14d8-a56ed91bf033">
-    <mxGraphModel dx="1662" dy="1406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2762" dy="1406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,16 +28,57 @@
           <mxGeometry x="130" y="30" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="frzOcebAlhDAod7eqseu-7" value="Is package currently a pre-release version?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="140" width="180" height="190" as="geometry" />
+          <mxGeometry x="170" y="134.44" width="180" height="190" as="geometry" />
         </mxCell>
         <mxCell id="frzOcebAlhDAod7eqseu-8" value="Yes" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="370" y="280" as="sourcePoint" />
-            <mxPoint x="310" y="340" as="targetPoint" />
+            <mxPoint x="210" y="274.44" as="sourcePoint" />
+            <mxPoint x="150" y="334.44" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="frzOcebAlhDAod7eqseu-9" value="- Query commits since last prod release" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="160" y="370" width="270" height="270" as="geometry" />
+        <mxCell id="frzOcebAlhDAod7eqseu-9" value="- Query for last release version&lt;br&gt;- Query commits since last release&lt;br&gt;- Calculate new prerelease version based on last release version, CC sum, and current version&lt;br&gt;- Use &quot;yarn version&quot; to update version&lt;br&gt;- Tag commit&lt;br&gt;- Publish with prerelease tag&lt;br&gt;- Update changelog" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="334.44" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="frzOcebAlhDAod7eqseu-10" value="No" style="endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="frzOcebAlhDAod7eqseu-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="334.44" as="sourcePoint" />
+            <mxPoint x="370" y="324.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frzOcebAlhDAod7eqseu-11" value="- Query commits since last release&lt;br&gt;- Calculate new prerelease version based on last release version and CC sum&lt;br&gt;- Use &quot;yarn version&quot; to update version&lt;br&gt;- Tag commit&lt;br&gt;- Publish with prerelease tag&lt;br&gt;- Update changelog" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="324.44" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="frzOcebAlhDAod7eqseu-12" value="" style="endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="frzOcebAlhDAod7eqseu-1" target="frzOcebAlhDAod7eqseu-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="180" as="sourcePoint" />
+            <mxPoint x="770" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frzOcebAlhDAod7eqseu-13" value="Publish @latest" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="frzOcebAlhDAod7eqseu-12">
+          <mxGeometry x="-0.1279" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frzOcebAlhDAod7eqseu-16" value="Is package currently a pre-release version?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="134.44" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="frzOcebAlhDAod7eqseu-17" value="Yes" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="frzOcebAlhDAod7eqseu-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="835" y="289.44000000000005" as="sourcePoint" />
+            <mxPoint x="775" y="349.44000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frzOcebAlhDAod7eqseu-18" value="- Calculate new version by dropping prerelease suffix&lt;br&gt;- Use &quot;yarn version&quot; to update version&lt;br&gt;- Tag commit&lt;br&gt;- Publish with latest tag&lt;br&gt;- Update changelog" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="585" y="349.44" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="frzOcebAlhDAod7eqseu-19" value="No" style="endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="frzOcebAlhDAod7eqseu-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="291.94000000000005" as="sourcePoint" />
+            <mxPoint x="995" y="339.44000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frzOcebAlhDAod7eqseu-20" value="- Query commits since last release&lt;br&gt;- Calculate new version based on last release version and CC sum&lt;br&gt;- Use &quot;yarn version&quot; to update version&lt;br&gt;- Tag commit&lt;br&gt;- Publish with prerelease tag&lt;br&gt;- Update changelog" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="995" y="339.44" width="180" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
