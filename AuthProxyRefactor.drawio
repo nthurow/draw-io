@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T21:17:00.041Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="QUenAwZIs9MahYjpXKle" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T21:44:42.765Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="6OeOVMMN-H6mZPKUPVMk" version="14.2.9" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="2373" dy="1666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2373" dy="3366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -93,6 +93,54 @@
         </mxCell>
         <mxCell id="w1PzRN34txhDw9UbGB5l-30" value="Portunus API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="890" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="w1PzRN34txhDw9UbGB5l-31" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="-575" width="20" height="615" as="geometry" />
+        </mxCell>
+        <mxCell id="w1PzRN34txhDw9UbGB5l-32" value="AuthProxy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-530" width="100" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="w1PzRN34txhDw9UbGB5l-33" value="GET /login" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="w1PzRN34txhDw9UbGB5l-31" target="w1PzRN34txhDw9UbGB5l-32">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-110" y="-460" as="sourcePoint" />
+            <mxPoint x="113.5" y="-460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-50" y="-450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1PzRN34txhDw9UbGB5l-34" value="&lt;b&gt;AuthProxyPlugin&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;- &lt;b&gt;login(query, headers, req) =&amp;gt; Promise&amp;lt;string&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; A function which should return a redirect URL based on the given query string params, header values, and request object&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;- authenticate&amp;lt;Subject, SecureFields, AuthToken&amp;gt;(body, headers, query, req) =&amp;gt; Promise&amp;lt;{sub: Subject, secureFields: SecureFields, authToken: AuthToken}&amp;gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="-1020" width="1000" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="w1PzRN34txhDw9UbGB5l-35" value="Plugin: AuthProxyPlugin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="334" y="-530" width="136" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="w1PzRN34txhDw9UbGB5l-36" value="login(req.query, req.headers, req)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="w1PzRN34txhDw9UbGB5l-32" target="w1PzRN34txhDw9UbGB5l-35">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="130" y="-426" as="sourcePoint" />
+            <mxPoint x="360" y="-426" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190.5" y="-426" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1PzRN34txhDw9UbGB5l-37" value="redirectURI" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="w1PzRN34txhDw9UbGB5l-35" target="w1PzRN34txhDw9UbGB5l-32">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="380" y="-380" as="sourcePoint" />
+            <mxPoint x="164" y="-380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="-370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w1PzRN34txhDw9UbGB5l-38" value="res.redirect(redirectURI)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="w1PzRN34txhDw9UbGB5l-32" target="w1PzRN34txhDw9UbGB5l-31">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="-330" as="sourcePoint" />
+            <mxPoint x="-90" y="-330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-79.5" y="-330" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
