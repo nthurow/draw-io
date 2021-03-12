@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T16:04:39.592Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="tZiWxjJiTv1_GtbG-kTo" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-12T18:01:24.405Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="Toq68_T2WaeNEfZDSmO0" version="14.4.4" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="2254" dy="3366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-104" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1260" width="430" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-101" value="" style="rounded=0;whiteSpace=wrap;html=1;align=center;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1080" width="430" height="180" as="geometry" />
+        </mxCell>
         <mxCell id="U6y2hWdJB_3HYAMK6PYz-72" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="1092" y="-20" width="220" height="110" as="geometry" />
         </mxCell>
@@ -243,6 +249,100 @@
               <mxPoint x="-40" y="600" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-81" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Persona Proxy Call API Flow&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-216" y="670" width="520" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-82" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-216" y="760" width="20" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-83" value="User sends request" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="U6y2hWdJB_3HYAMK6PYz-82" target="U6y2hWdJB_3HYAMK6PYz-84">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="110" as="sourcePoint" />
+            <mxPoint x="90" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-84" value="Browser" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="800" width="100" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-86" value="Inject session ID" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="890" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="35" y="890" />
+            </Array>
+            <mxPoint x="15" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-87" value="AuthProxy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="800" width="100" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-92" value="getSecureSession(sessionId)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="U6y2hWdJB_3HYAMK6PYz-87">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="224" as="sourcePoint" />
+            <mxPoint x="233.5" y="224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-94" value="refresh(session)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="U6y2hWdJB_3HYAMK6PYz-87">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="360" as="sourcePoint" />
+            <mxPoint x="403.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-97" value="updateSession(updatedSession)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="U6y2hWdJB_3HYAMK6PYz-87">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="430" as="sourcePoint" />
+            <mxPoint x="233.5" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-89" value="Send Request" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="9.5" y="946" as="sourcePoint" />
+            <mxPoint x="169.5" y="946" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="946" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-90" value="Get session ID&lt;br&gt;from request" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="970" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="195" y="970" />
+              <mxPoint x="195" y="990" />
+            </Array>
+            <mxPoint x="175" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-91" value="SessionManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="304" y="800" width="100" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-93" value="session" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="353.5" y="1065" as="sourcePoint" />
+            <mxPoint x="169.5" y="1065" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-95" value="Persona Proxy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="474" y="800" width="100" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-96" value="updatedSession" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="523.5" y="1195" as="sourcePoint" />
+            <mxPoint x="169.5" y="1195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-102" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;If session.expiresAt &amp;lt; Date.now()&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1095" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-103" value="validate(session)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="169.5" y="1325" as="sourcePoint" />
+            <mxPoint x="523.5" y="1325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U6y2hWdJB_3HYAMK6PYz-105" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;else&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1275" width="320" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
