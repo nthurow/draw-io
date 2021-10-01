@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-01T21:17:54.616Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="M5OPN0ydZRp5PckekETg" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-01T21:21:41.631Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="ia4r4S3Oc7WARb44NejV" version="14.9.6" type="github">
   <diagram id="pAQhYmqZAmmfFkDTzrtn" name="Page-1">
     <mxGraphModel dx="929" dy="1393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -177,6 +177,15 @@
         </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-103" value="pharmacySearchEndpoint" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="204.25" y="1882.25" width="198" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-108" value="Up Next: Show the pharmacy search/pharmacy details page" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="6.25" y="2450" width="340" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-109" value="After that: Show multiple components interacting" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="2490" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-110" value="Finally: Show SDK available (both inter-component and hooks available for tenant)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="2540" width="450" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
