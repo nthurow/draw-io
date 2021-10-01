@@ -1,11 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2021-10-01T20:06:06.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="yimTZ1_1mX-W0WHfKtDt" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-01T21:17:54.616Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="M5OPN0ydZRp5PckekETg" version="14.9.6" type="github">
   <diagram id="pAQhYmqZAmmfFkDTzrtn" name="Page-1">
     <mxGraphModel dx="929" dy="1393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-21" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="5" y="330" width="750" height="310" as="geometry" />
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-107" value="pharmacyResults" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="291.13" y="1860.13" width="156.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-106" value="enableUseCurrentLocation" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="153.95" y="1860.96" width="154.53" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-105" value="searchAddress" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="87.98" y="1861.98" width="153.18" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-104" value="content" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1860" width="152.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-1" value="&quot;Adapter Pattern&quot; using pharmacy locator feature as example" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="760" height="20" as="geometry" />
@@ -34,48 +43,6 @@
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-10" value="Search" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="550" y="215" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="470" width="680" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-14" value="Search for Pharmacies" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="60" y="490" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="75" y="545" width="265" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-16" value="Address" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="75" y="525" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="545" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-18" value="Radius (miles)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="525" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="540" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-20" value="Search" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="545" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-22" value="Core component, suitable for displaying in Storybook.&amp;nbsp; This core component makes no assumptions about the environment it is in.&amp;nbsp; It makes no API calls and assumes all initial data needed to render the component is already available.&amp;nbsp; It has the following props:&lt;br&gt;&lt;ul&gt;&lt;li&gt;content: all labels and messages that are provided from the CMS&lt;/li&gt;&lt;li&gt;initialSearchAddress: an optional address to pre-populate in the address search field&lt;/li&gt;&lt;li&gt;enableUseCurrentLocation: a boolean to indicate whether or not the &quot;use my current location&quot; icon should be visible&lt;/li&gt;&lt;li&gt;searchForPharmacies: a function which will get called when &quot;Search&quot; is clicked.&amp;nbsp; The function will receive the values which the user entered into the search fields, and is expected to return a list of pharmacies matching that criteria&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="340" width="720" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-29" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="310" y="550" width="10" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-30" value="" style="endArrow=none;html=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="555" as="sourcePoint" />
-            <mxPoint x="330" y="555" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-31" value="" style="endArrow=none;html=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="314.79999999999995" y="567.5" as="sourcePoint" />
-            <mxPoint x="314.79999999999995" y="542.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-32" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="310" y="220" width="10" height="10" as="geometry" />
         </mxCell>
@@ -90,6 +57,126 @@
             <mxPoint x="314.79999999999995" y="237.5" as="sourcePoint" />
             <mxPoint x="314.79999999999995" y="212.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-35" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="5" y="897" width="750" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="967" width="680" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-37" value="Search for Pharmacies" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="60" y="987" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="1042" width="265" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-39" value="Address" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="1022" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1042" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-41" value="Radius (miles)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1022" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-42" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1037" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-43" value="Search" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1042" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-45" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1047" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-46" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="1052" as="sourcePoint" />
+            <mxPoint x="330" y="1052" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-47" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="314.79999999999995" y="1064.5" as="sourcePoint" />
+            <mxPoint x="314.79999999999995" y="1039.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-48" value="content" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="15" y="844.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-62" value="searchAddress" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="86.5" y="844.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-63" value="enableUseCurrentLocation" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="156.25" y="844.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-64" value="searchForPharmacies" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="222" y="844.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-65" value="Core component, suitable for displaying in Storybook.&amp;nbsp; This core component makes no assumptions about the environment it is in.&amp;nbsp; It makes no API calls and assumes all initial data needed to render the component is already available.&amp;nbsp; Essentially it declares its &quot;dependencies&quot; (both data and actions) via props.&amp;nbsp; This makes it extremely flexible and able to adapt to any use case, now or in the future.&amp;nbsp; &lt;br&gt;&lt;br&gt;It has the following props:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;content&lt;/b&gt;: all labels and messages that are provided from the CMS&lt;/li&gt;&lt;li&gt;&lt;b&gt;searchAddress&lt;/b&gt;: an optional address to pre-populate in the address search field&lt;/li&gt;&lt;li&gt;&lt;b&gt;enableUseCurrentLocation&lt;/b&gt;: a boolean to indicate whether or not the &quot;use my current location&quot; icon should be visible&lt;/li&gt;&lt;li&gt;&lt;b&gt;searchForPharmacies&lt;/b&gt;: a function which will get called when &quot;Search&quot; is clicked.&amp;nbsp; The function will receive the values which the user entered into the search fields, and is expected to return a list of pharmacies matching that criteria&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;b&gt;pharmacyResults&lt;/b&gt;: an optional array of pharmacy objects to display in the results list&lt;/li&gt;&lt;li&gt;&lt;b&gt;onAnalyticsEvent&lt;/b&gt;: a function which will get called when any analytics event occurs.&amp;nbsp; The function will receive information about the event (event type, payload, etc.) so that it can perform any required analytics processing, such as sending the event to Adobe Analytics&lt;/li&gt;&lt;li&gt;&lt;b&gt;onLogEvent&lt;/b&gt;: a function which will get called whenever a logging event occurs.&amp;nbsp; Logging events are different from analytics events in that they are more for debugging and troubleshooting (though their could be some overlap between logging and analytics).&amp;nbsp; The function will recent information about the log event and is responsible for reporting it (could be as simple as passing it to &quot;console.log&quot;).&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="15" y="480" width="720" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-66" value="&lt;b&gt;Pharmacy One&lt;/b&gt;&lt;br&gt;&lt;br&gt;address line 1&lt;br&gt;address line 2&lt;br&gt;(555) 555-5555" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1117" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-68" value="&lt;b&gt;Pharmacy Two&lt;/b&gt;&lt;br&gt;&lt;br&gt;address line 1&lt;br&gt;address line 2&lt;br&gt;(555) 555-5555" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1227" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-69" value="&lt;b&gt;Pharmacy Three&lt;/b&gt;&lt;br&gt;&lt;br&gt;address line 1&lt;br&gt;address line 2&lt;br&gt;(555) 555-5555" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1337" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-71" value="Results Map" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1117" width="400" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-72" value="pharmacyResults" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="290" y="844.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-73" value="Example of a wrapper component (&quot;adapter&quot;) that is less generic and more tightly-coupled to a specific tenant application(s).&amp;nbsp; For example, rather than accepting a &quot;searchForPharmacies&quot; callback, it instead accepts a URL for an API and calls that API when the &quot;searchForPharmacies&quot; callback is triggered.&amp;nbsp; It also implements Adobe analytics and writes any logging events to the console.&lt;br&gt;&lt;br&gt;Keeping this logic in the adapter layer rather than in the core component keeps the core component flexible and generic, while still allowing us to provide default, out-of-the-box experiences to minimize the amount of work that tenants must do.&lt;br&gt;&lt;br&gt;&lt;b&gt;Caveat:&lt;/b&gt;&amp;nbsp;Since no two tenants are alike, it can be difficult to create an out-of-the-box default experience.&amp;nbsp; For instance, in the example shown below the adapter component replaces the &quot;searchForPharmacies&quot; callback prop with a &quot;pharmacySearchEndpoint&quot; string prop so that tenants only have to pass an endpoint, they don&#39;t have to do the work of actually calling the API.&amp;nbsp; However calling an API usually requires more than an endpoint; it requires some sort of authentication (an OAuth or JWT token, or a session ID) and sometimes custom headers to indicate the application name.&amp;nbsp; You can create props for that information, however it might be difficult to create a set of props that works for every tenant.&amp;nbsp; Plus the end result might be an interface that is much more complex than just a simple &quot;searchForPharmacies&quot; callback." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5" y="1560" width="720" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-74" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="6.25" y="2302.75" width="750" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-86" value="content" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry y="2234" width="192.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-87" value="searchAddress" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="67.62" y="2230.12" width="200.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-88" value="enableUseCurrentLocation" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="137.19" y="2229.95" width="200.62" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-94" value="pharmacyResults" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="271.88" y="2230.88" width="198.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-95" value="onAnalyticsEvent" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="360" y="844.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-96" value="onLogEvent" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="430" y="844.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-97" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="6.25" y="1951.25" width="775" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-98" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;searchForPharmacies&lt;/b&gt;&lt;/font&gt;&lt;b&gt;:&lt;/b&gt;&lt;br&gt;function searchForPharmacies(address, radius) {&lt;br&gt;&amp;nbsp; return axios.get(pharmacySearchEndpoint, {address, radius});&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="26.25" y="2021.25" width="345" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-99" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;onAnalyticsEvent&lt;/b&gt;&lt;/font&gt;&lt;b&gt;:&lt;/b&gt;&lt;br&gt;function onAnalyticsEvent(event) {&lt;br&gt;&amp;nbsp; window.dataLayer.push(event);&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="384.5" y="2021.25" width="195" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-100" value="onAnalyticsEvent" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="306.25" y="2196.25" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-102" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;onLogEvent&lt;/b&gt;&lt;/font&gt;&lt;b&gt;:&lt;/b&gt;&lt;br&gt;function onLogEvent(event) {&lt;br&gt;&amp;nbsp;console.log(event);&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="473.75" y="2101.25" width="175" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-89" value="searchForPharmacies" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="168.5" y="2197.5" width="269.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-101" value="onLogEvent" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2235" width="182.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-103" value="pharmacySearchEndpoint" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="204.25" y="1882.25" width="198" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
