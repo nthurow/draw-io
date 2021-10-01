@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-01T19:39:16.435Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="pIwTxOApRhBvj9KxQg85" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-01T20:06:06.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="yimTZ1_1mX-W0WHfKtDt" version="14.9.6" type="github">
   <diagram id="pAQhYmqZAmmfFkDTzrtn" name="Page-1">
-    <mxGraphModel dx="1115" dy="1671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="929" dy="1393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,8 +61,35 @@
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-22" value="Core component, suitable for displaying in Storybook.&amp;nbsp; This core component makes no assumptions about the environment it is in.&amp;nbsp; It makes no API calls and assumes all initial data needed to render the component is already available.&amp;nbsp; It has the following props:&lt;br&gt;&lt;ul&gt;&lt;li&gt;content: all labels and messages that are provided from the CMS&lt;/li&gt;&lt;li&gt;initialSearchAddress: an optional address to pre-populate in the address search field&lt;/li&gt;&lt;li&gt;enableUseCurrentLocation: a boolean to indicate whether or not the &quot;use my current location&quot; icon should be visible&lt;/li&gt;&lt;li&gt;searchForPharmacies: a function which will get called when &quot;Search&quot; is clicked.&amp;nbsp; The function will receive the values which the user entered into the search fields, and is expected to return a list of pharmacies matching that criteria&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="340" width="720" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-24" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="320" y="750" width="10" height="10" as="geometry" />
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-29" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="310" y="550" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-30" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="555" as="sourcePoint" />
+            <mxPoint x="330" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-31" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="314.79999999999995" y="567.5" as="sourcePoint" />
+            <mxPoint x="314.79999999999995" y="542.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-32" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="310" y="220" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-33" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="225" as="sourcePoint" />
+            <mxPoint x="330" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-34" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="314.79999999999995" y="237.5" as="sourcePoint" />
+            <mxPoint x="314.79999999999995" y="212.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
