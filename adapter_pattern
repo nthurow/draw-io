@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2021-10-05T18:37:29.796Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="5EQfSI1B2CDE3-5fipqn" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-05T18:45:29.118Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="tpJp7tnOFEHvaz2J2A9S" version="14.9.6" type="github">
   <diagram id="pAQhYmqZAmmfFkDTzrtn" name="Page-1">
     <mxGraphModel dx="929" dy="1393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-180" value="&amp;nbsp; content" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="75" y="3905" width="150" height="30" as="geometry" />
+          <mxGeometry x="65" y="3800" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-181" value="&amp;nbsp; pharmacyInfo" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="145.75" y="3905.75" width="151.5" height="30" as="geometry" />
+          <mxGeometry x="135.75" y="3800.75" width="151.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-182" value="&amp;nbsp; &amp;nbsp;onAnalyticsEvent" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="287.5" y="3907.5" width="155" height="30" as="geometry" />
+          <mxGeometry x="277.5" y="3802.5" width="155" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-183" value="&amp;nbsp; &amp;nbsp;onLogEvent" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="357.5" y="3907.5" width="155" height="30" as="geometry" />
+          <mxGeometry x="347.5" y="3802.5" width="155" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-107" value="pharmacyResults" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="291.13" y="1860.13" width="156.75" height="30" as="geometry" />
@@ -239,43 +239,46 @@
           <mxGeometry x="192.5" y="2980" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-168" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="60" y="4302.5" width="750" height="570" as="geometry" />
+          <mxGeometry x="50" y="4197.5" width="750" height="117.5" as="geometry" />
         </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-169" value="content" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="70" y="4250" width="160" height="30" as="geometry" />
+          <mxGeometry x="60" y="4145" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-170" value="pharmacyInfo" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="141.5" y="4250" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-171" value="&lt;b&gt;Pharmacy Name&lt;/b&gt;&lt;br&gt;123 Main Street&lt;br&gt;Hometown, USA&lt;br&gt;&lt;br&gt;&lt;b&gt;Hours:&lt;/b&gt;&lt;br&gt;Monday: 8-5&lt;br&gt;Tuesday: 9-5&lt;br&gt;Wednesday: 9-5&lt;br&gt;Thursday: 9-5&lt;br&gt;Friday: 8-7&lt;br&gt;Saturday: Closed&lt;br&gt;Sunday: Closed&lt;br&gt;&lt;br&gt;&lt;b&gt;Services:&lt;br&gt;&lt;/b&gt;&amp;nbsp;- immunizations&lt;br&gt;&amp;nbsp;- drive-through&lt;br&gt;&amp;nbsp;&lt;br&gt;Click Here for Directions&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;&amp;lt;-- Back to Search&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="80" y="4420" width="380" height="430" as="geometry" />
-        </mxCell>
-        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-172" value="&lt;b&gt;Map&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="470" y="4420" width="320" height="430" as="geometry" />
+          <mxGeometry x="131.5" y="4145" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-173" value="Pharmacy Results Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="80" y="4380" width="170" height="20" as="geometry" />
+          <mxGeometry x="70" y="4275" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-174" value="&lt;b&gt;Pharmacy Results Adapter&lt;/b&gt;&lt;br&gt;Similar to the &quot;Pharmacy Locator Adapter&quot;, the &quot;Pharmacy Results Adapter&quot; is a more tenant-specific wrapper around the core component.&amp;nbsp; In this case, it provides a specific implementation for the &quot;getBackToSearchLink&quot; functionality.&amp;nbsp; The rest of the props on the pharmacy results container are passed through." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="3650" width="720" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-175" value="onAnalyticsEvent" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="285" y="4250" width="160" height="30" as="geometry" />
+          <mxGeometry x="275" y="4145" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-176" value="onLogEvent" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="355" y="4250" width="160" height="30" as="geometry" />
+          <mxGeometry x="345" y="4145" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-178" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="50" y="3991" width="775" height="230" as="geometry" />
+          <mxGeometry x="40" y="3886" width="775" height="230" as="geometry" />
         </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-179" value="Pharmacy Results Adapter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="67.62" y="4020" width="162.38" height="20" as="geometry" />
+          <mxGeometry x="57.620000000000005" y="3915" width="162.38" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-184" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;getBackToSearchLink&lt;/b&gt;&lt;/font&gt;&lt;b&gt;:&lt;br&gt;&lt;/b&gt;import Link from &#39;next/link&#39;;&lt;br&gt;&lt;br&gt;function getBackToSearchLink(children) {&lt;br&gt;&amp;nbsp; return &amp;lt;Link href=&quot;/pharmacy/search&quot;&amp;gt;&amp;lt;a&amp;gt;{children}&amp;lt;/a&amp;gt;&amp;lt;/Link&amp;gt;;&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="87.98" y="4050" width="372.02" height="100" as="geometry" />
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-184" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;getBackToSearchLink&lt;/b&gt;&lt;/font&gt;&lt;b&gt;:&lt;br&gt;&lt;/b&gt;import Link from &#39;next/link&#39;;&lt;br&gt;&lt;br&gt;function getBackToSearchLink(children) {&lt;br&gt;&amp;nbsp; return &amp;lt;Link href={pharmacySearchUrl}&amp;gt;&amp;lt;a&amp;gt;{children}&amp;lt;/a&amp;gt;&amp;lt;/Link&amp;gt;;&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="77.98" y="3945" width="372.02" height="100" as="geometry" />
         </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-177" value="getBackToSearchLink" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="189.38" y="4226.87" width="206.25" height="30" as="geometry" />
+          <mxGeometry x="179.38" y="4121.87" width="206.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-185" value="&lt;b&gt;Pharmacy Locator Context Provider&lt;/b&gt;&lt;br&gt;The" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="4400" width="720" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-186" value="&lt;b&gt;Note:&lt;/b&gt;&amp;nbsp;This snippet of code will only work for Next.js apps.&amp;nbsp; Apps using React Router would need a different implementation.&amp;nbsp; It would be very difficult to come up with an implementation that would work for both types of apps (plus who knows what other frameworks might be used in the future)." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="462" y="3945" width="338" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-187" value="&amp;nbsp; pharmacySearchUrl" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="193.38" y="3813.37" width="178.25" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
