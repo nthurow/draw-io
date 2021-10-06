@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-06T16:18:24.970Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="Xv37q-OLTfwRo1Hj360m" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-06T19:03:10.982Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="J9wXigFbeuRP92rcpdnr" version="14.9.6" type="github">
   <diagram id="pAQhYmqZAmmfFkDTzrtn" name="Page-1">
-    <mxGraphModel dx="4253" dy="2273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3034" dy="1071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="-210" y="4500" width="1830" height="1090" as="geometry" />
         </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-215" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="4910" width="1770" height="650" as="geometry" />
+          <mxGeometry x="-180" y="4910" width="1760" height="650" as="geometry" />
         </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-74" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="6.25" y="2302.75" width="750" height="97.5" as="geometry" />
@@ -490,11 +490,14 @@
             <mxPoint x="880" y="4980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-252" value="pharmacySelected" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="313" y="4740" width="40" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="OSdYiM-w9uRwdhkcg_Fl-255" value="selectedPharmacy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="920" y="4740" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-259" value="&amp;lt;PharmacyLocatorContext searchApiPath=&quot;/api/pharmacy-search&quot;&amp;gt;&lt;br&gt;&lt;br&gt;&amp;lt;/PharmacyLocatorContext&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-142.38" y="5605" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OSdYiM-w9uRwdhkcg_Fl-260" value="onPharmacySelected(pharmacy) {&lt;br&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; dispatch({type: &#39;PHARMACY_SELECTED, payload: pharmacy});&lt;/span&gt;&lt;/div&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="4730" width="360" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
