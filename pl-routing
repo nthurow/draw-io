@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2021-11-11T03:01:26.840Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.5.1" etag="aBLm_bFuifLiZsgd88d6" type="github"><diagram id="6WE2E0jwj9mBEv0R9KNm">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-11T03:35:18.586Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="FgFXmUXWmS0QpDeuSPGA" version="15.5.1" type="github">
+  <diagram id="6WE2E0jwj9mBEv0R9KNm" name="Page-1">
+    <mxGraphModel dx="1115" dy="2771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bh4C8ZeaSeZjQF0C-axW-1" value="&lt;b&gt;Container&lt;/b&gt;&lt;br&gt;&lt;br&gt;If initialSearchState is populated, then initialize the state using those values; this means&lt;br&gt;that the search results are immediately visible." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1010" width="600" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bh4C8ZeaSeZjQF0C-axW-2" value="&lt;b&gt;Adapter&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="460" width="600" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bh4C8ZeaSeZjQF0C-axW-3" value="&lt;b&gt;Pharmacy Search&lt;/b&gt;&lt;br&gt;&lt;br&gt;const {searchParams} = useQueryParams();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="-200" width="600" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bh4C8ZeaSeZjQF0C-axW-4" value="&lt;b&gt;Application State&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-490" width="600" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bh4C8ZeaSeZjQF0C-axW-5" value="initialSearchState (search params and results)" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="70" y="950" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bh4C8ZeaSeZjQF0C-axW-6" value="initialSearchState {searchBy: string; address: string; showOutOfNetwork: boolean; etc.}" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="280" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bh4C8ZeaSeZjQF0C-axW-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="-70" as="sourcePoint" />
+            <mxPoint x="190" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bh4C8ZeaSeZjQF0C-axW-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="-380" as="sourcePoint" />
+            <mxPoint x="495.52" y="-90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bh4C8ZeaSeZjQF0C-axW-13" value="Parse query string and expose key/value pair through context" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-360" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bh4C8ZeaSeZjQF0C-axW-14" value="Pass search params object to adapter" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-50" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bh4C8ZeaSeZjQF0C-axW-15" value="initialSearchState prop on the adapter is an object that represents the search params that might exist in the query string.&amp;nbsp; For example, if the URL is:&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; /pharmacy-locator?searchBy=npi&amp;amp;npi=1234&amp;amp;showOutOfNetwork=true&lt;br&gt;&lt;br&gt;Then the initialSearchState prop should receive an object like:&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; {searchBy: &#39;npi&#39;, npi: &#39;1234&#39;, showOutOfNetwork: true}&lt;br&gt;&lt;br&gt;The PharmacySearch component will examine the query params (received via the &quot;useQueryParams&quot; hook) and do some validation to make sure correct combination of params is there before passing them to adapter.&amp;nbsp; If correct combination of params is NOT there (for example searchBy is &#39;npi&#39; but no npi param exists) then the PharmacySearch component will leave initialSearchState undefined.&lt;br&gt;&lt;br&gt;&lt;b&gt;Question: &lt;/b&gt;How would this work with server-side rendering? How can we fetch the initial results list in getInitialProps and pass the data?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="430" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bh4C8ZeaSeZjQF0C-axW-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="520" as="sourcePoint" />
+            <mxPoint x="190" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bh4C8ZeaSeZjQF0C-axW-17" value="If initialSearchState prop on the adapter is populated, then adapter should perform the search.&amp;nbsp; It should pass the results to the initialSearchState prop on the container.&amp;nbsp; The container initialSearchState is a different type of object than the prop on the adapter; the container prop will likely need to be almost the same as the pharmacy locator state (it will need to have a pharmacy results list, number of pages, items per page, etc.)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="690" width="430" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bh4C8ZeaSeZjQF0C-axW-18" value="If initialSearchState prop is not populated, adapter can check if the user is logged in and do a search based on the user&#39;s address, or last selected pharmacy, etc." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="580" width="310" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
