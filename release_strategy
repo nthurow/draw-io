@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T19:22:11.837Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="jQwX6rltoqRbYnNXvvOK" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-02T19:45:06.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="CUBFRKbZI4nYhPuYc3tI" version="15.8.2" type="github">
   <diagram id="dVF2Mw1bkZvBqnSMUB2t" name="Page-1">
-    <mxGraphModel dx="1839" dy="1472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2169" dy="3063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,10 +28,10 @@
         <mxCell id="YTwyhBYxTEOxrfD78Myn-8" value="Commit 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="115" y="355" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YTwyhBYxTEOxrfD78Myn-9" value="react-core@1.8.0&lt;br&gt;@latest" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="YTwyhBYxTEOxrfD78Myn-9" value="react-core@1.8.0&lt;br&gt;@latest, @next" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="360" y="430" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YTwyhBYxTEOxrfD78Myn-11" value="savings-center@1.9.3&lt;br&gt;@latest" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="YTwyhBYxTEOxrfD78Myn-11" value="savings-center@1.9.3&lt;br&gt;@latest, @next" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="360" y="500" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YTwyhBYxTEOxrfD78Myn-12" value="" style="endArrow=none;html=1;rounded=0;fontSize=18;exitX=0.44;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YTwyhBYxTEOxrfD78Myn-9">
@@ -67,10 +67,10 @@
         <mxCell id="YTwyhBYxTEOxrfD78Myn-21" value="Commit 3&lt;br&gt;savings-center new feature" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="975" y="345" width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="YTwyhBYxTEOxrfD78Myn-22" value="react-core@1.8.1&lt;br&gt;@latest" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="YTwyhBYxTEOxrfD78Myn-22" value="react-core@1.8.1&lt;br&gt;@latest, @next" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1275" y="430" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YTwyhBYxTEOxrfD78Myn-23" value="savings-center@1.10.0&lt;br&gt;@latest" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="YTwyhBYxTEOxrfD78Myn-23" value="savings-center@1.10.0&lt;br&gt;@latest, @next" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1275" y="500" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YTwyhBYxTEOxrfD78Myn-24" value="" style="endArrow=none;html=1;rounded=0;fontSize=18;exitX=0.44;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YTwyhBYxTEOxrfD78Myn-22">
@@ -139,7 +139,7 @@
         <mxCell id="YTwyhBYxTEOxrfD78Myn-43" value="Commit 7&lt;br&gt;react-core bug fix" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1605" y="345" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="YTwyhBYxTEOxrfD78Myn-44" value="react-core@1.8.3&lt;br&gt;@latest" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="YTwyhBYxTEOxrfD78Myn-44" value="react-core@1.8.3&lt;br&gt;@latest, @next" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1875" y="430" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YTwyhBYxTEOxrfD78Myn-45" value="" style="endArrow=none;html=1;rounded=0;fontSize=18;exitX=0.44;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YTwyhBYxTEOxrfD78Myn-44">
@@ -153,6 +153,9 @@
         </mxCell>
         <mxCell id="YTwyhBYxTEOxrfD78Myn-47" value="We skip 1.8.2 and jump right to 1.8.3&lt;br&gt;because 1.8.2 is already used by&lt;br&gt;Commit 5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="1845" y="520" width="310" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YTwyhBYxTEOxrfD78Myn-48" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;Rules:&lt;br&gt;&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;Follow Semantic Versioning as much as possible&lt;/font&gt;&lt;/li&gt;&lt;li&gt;The following dist tags will be used for each package:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;@next&lt;/b&gt;: Will always point to the latest published version of a package&lt;br&gt;on the &lt;b&gt;master&lt;/b&gt; branch.&amp;nbsp; It&#39;s the &quot;bleeding edge&quot; tag.&lt;/li&gt;&lt;li&gt;&lt;b&gt;@latest&lt;/b&gt;: Will always point to the latest non-prerelease version of a&lt;br&gt;package on the &lt;b&gt;master&lt;/b&gt;&amp;nbsp;branch.&amp;nbsp; It&#39;s the &quot;stable&quot; tag.&lt;/li&gt;&lt;li&gt;&lt;b&gt;@release-XXX&lt;/b&gt;: Will always point to the latest published version of a&lt;br&gt;package on a given release branch.&amp;nbsp; This tag name will match the&lt;br&gt;release branch name.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Every time we version a package, we have to check if that version already&lt;br&gt;exists.&amp;nbsp; Because the release branch process causes branches to diverge,&lt;br&gt;it is possible that a version bump has already been introduced in a different&lt;br&gt;branch.&lt;/li&gt;&lt;li&gt;Release branches should only be needed in rare circumstances, primarily to&lt;br&gt;fix critical, show-stopping bugs that &lt;i&gt;cannot wait&lt;/i&gt;&amp;nbsp;until the next release.&amp;nbsp; New&lt;br&gt;features, improvements, optimizations, etc. should only happen in master!&lt;/li&gt;&lt;li&gt;Only working, non-breaking code should be added to master.&amp;nbsp; This will help&lt;br&gt;reduce the need for release branches.&amp;nbsp; Use feature flags (i.e. a prop on the&lt;br&gt;component that can be toggled in Storybook) to gradually implement&lt;br&gt;complicated new features one piece at a time.&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="-220" width="660" height="550" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
