@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T01:53:31.703Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5kqBpaIjGmllkoPmOhso" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-08T02:11:36.640Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qvjb5Y6OoAp0izhHVXnF" version="20.8.20" type="github">
   <diagram name="Page-1" id="hd-b3n51wtc8oq0fuVfL">
     <mxGraphModel dx="2279" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -317,6 +317,57 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-360" y="780" as="sourcePoint" />
             <mxPoint x="-360" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CblmxtqpFd_Ny1sq0QMN-73" value="Notes:&lt;br&gt;- This chair opening is too narrow;&lt;br&gt;&amp;nbsp; &amp;nbsp;needs to be at least 2ft" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="700" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CblmxtqpFd_Ny1sq0QMN-74" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;noJump=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-310" y="1700" as="sourcePoint" />
+            <mxPoint x="-440" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CblmxtqpFd_Ny1sq0QMN-75" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-640" y="1480" as="sourcePoint" />
+            <mxPoint x="-440" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CblmxtqpFd_Ny1sq0QMN-76" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-310" y="1880" as="sourcePoint" />
+            <mxPoint x="-310" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CblmxtqpFd_Ny1sq0QMN-77" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-640" y="1480" as="sourcePoint" />
+            <mxPoint x="-640" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CblmxtqpFd_Ny1sq0QMN-78" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-310" y="1880" as="sourcePoint" />
+            <mxPoint x="-190" y="1880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CblmxtqpFd_Ny1sq0QMN-79" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-190" y="1880" as="sourcePoint" />
+            <mxPoint x="-190" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CblmxtqpFd_Ny1sq0QMN-80" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-640" y="1360" as="sourcePoint" />
+            <mxPoint x="-320" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CblmxtqpFd_Ny1sq0QMN-81" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-190" y="1580" as="sourcePoint" />
+            <mxPoint x="-320" y="1360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
