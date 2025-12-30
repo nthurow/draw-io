@@ -76,6 +76,21 @@
             <mxPoint x="1760" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="_at7tlEeMWCB9ThldaO6-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="120" width="30" x="240" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_at7tlEeMWCB9ThldaO6-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="120" width="30" x="1120" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="_at7tlEeMWCB9ThldaO6-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=33;" value="Power Trac" vertex="1">
+          <mxGeometry height="480" width="400" x="280" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="_at7tlEeMWCB9ThldaO6-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=33;" value="Car" vertex="1">
+          <mxGeometry height="720" width="400" x="1320" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="_at7tlEeMWCB9ThldaO6-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=33;" value="Truck" vertex="1">
+          <mxGeometry height="840" width="400" x="800" y="400" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
