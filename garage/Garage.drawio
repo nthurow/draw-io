@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="Page-1" id="YWTQ2PUr13Irb9CVSXeF">
-    <mxGraphModel dx="2496" dy="4386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3120" dy="5208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -105,6 +105,12 @@
         </mxCell>
         <mxCell id="_at7tlEeMWCB9ThldaO6-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;textDirection=vertical-lr;fontSize=33;" value="Yard Tools" vertex="1">
           <mxGeometry height="260" width="60" x="240" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="tR--8C4zlo6yUykKGA5b-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Garbage" vertex="1">
+          <mxGeometry height="90" width="110" x="1130" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tR--8C4zlo6yUykKGA5b-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Garbage" vertex="1">
+          <mxGeometry height="90" width="110" x="1130" y="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
